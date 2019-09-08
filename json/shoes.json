@@ -1,0 +1,35 @@
+{
+  "shoes": [
+    {
+      "name": "air Force One",
+      "brand": "Nike",
+      "size": 42,
+      "color": "white",
+      "price": 300
+    },
+    {
+      "name": "great shoes",
+      "brand": "adidas",
+      "size": 45,
+      "color": "red",
+      "price": 400
+
+    },
+    {
+      "name": "nike air",
+      "brand": "rebook",
+      "size": 42,
+      "color": "black",
+      "price": 100
+
+    },
+    {
+      "name": "nike air",
+      "brand": "rebook",
+      "size": 100,
+      "color": "redish",
+      "price": 50
+    }
+
+  ]
+}

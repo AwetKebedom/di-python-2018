@@ -1,0 +1,42 @@
+{
+  "tomatoes": {
+    "stock":30,
+    "price":2
+  },
+  "soap": {
+    "stock":2,
+    "price":3
+  },
+  "coffee": {
+    "stock":100,
+    "price":5
+  },
+  "avocado": {
+    "stock":0,
+    "price":70
+  },
+  "apple": {
+    "stock":30,
+    "price":2
+  },
+  "paper": {
+    "stock":30,
+    "price":2
+  },
+  "pencil": {
+    "stock":30,
+    "price":2
+  },
+  "pasta": {
+    "stock":30,
+    "price":2
+  },
+  "beef": {
+    "stock":30,
+    "price":2
+  },
+  "salt": {
+    "stock":30,
+    "price":2
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class Excersice</title>	
+	<meta charset="utf-8">
+</head>
+<body> 
+	<input id="myname" type=text"" name="Name" placeholder="write your name">
+
+	<button onclick="">send</button>
+
+
+
+	<h2>Class test </h2>
+	
+	<ol>
+		<li> <button><a href="https://www.google.com" target="blank"> Google</a></button></li>
+		<li><button><a href="https://www.facebook.com" target="blank"> Facebook</a></button></li>
+		<li><button><a href="https://www.Ynet.com" target="blank"> Ynet</a></button></li>
+		<li><button><a href="https://www.twitter.com" target="blank"> Twitter</a></button></li>
+		<li><button><a href="https://www.Instgram.com" target="blank"> Instgram</a></button></li>
+		<li><button><a href="https://www.bbc.com" target="blank"> BBC news</a></button></li>
+		<li><button><a href="https://www.CNN.com" target="blank"> CNN</a></button></li>
+		<li><button><a href="https://www.Aljazeera.com" target="blank"> Aljazeera</a></button></li>
+		<li><button><a href="https://www.foxnews.com" target="blank"> Fox News</a></button></li>
+		<li><button><a href="https://www.zhaaret.com" target="blank"> Haaretz</a></button></li>
+		<li><button><a href="https://www.Newyorktimes.com" target="blank"> New York Times</a></button></li>
+		<li><button><a href="https://www.java.com" target="blank"> Java</a></button></li>
+		<li><button><a href="https://www.institute.com" target="blank"> Instituet</a></button></li>
+		<li><button><a href="https://www.google.com" target="blank"> Blank</a></button></li>
+		
+</ol>
+
+	
+
+
+
+
+
+<script type="text/javascript">
+
+var som =	document.getElementsById("")
+
+var some = document.getElementsByTagName("li");
+var pos = 0;
+var len = some.length
+while ( pos<len){
+		console.log("counting");
+if (pos == 10){
+	break;
+}	
+pos++;
+}console.log("loop exited");
+
+</script>
+
+<br>
+
+
+
+
+
+<script>
+
+
+var names = 'awet abraham isaac africa caleb ';
+var alphabets = names.split("");
+
+		console.log(alphabets);
+
+var letters_count = {}
+	for (var i = 0; i< alphabets.length; i++) 
+	{
+		if (letters_count[alphabets[i]] == undefined)
+		letters_count[alphabets[i]] = 0;
+
+ 		letters_count[alphabets[i]]++;
+ 	}
+ 	for ( var i in letters_count)
+ 	{
+ 		console.log(i + ' = ' + letters_count[i]);
+ 	} 
+
+
+
+
+
+
+ 	var awet = "looking for wisdom"
+ 	var get = awet.split("l");
+
+ 	console.log(get);
+
+var d = awet.slice(5,12);
+console.log(d);	
+
+function awet(L){
+ 		i=0;
+ 		var countL=0;
+ 		var get;
+ 		while(i<L.length){
+ 			get = l[i].split('l');
+ 			if (get.length>1){
+ 				countL = countL + (get.length-1);
+ 			}
+ 			i++;
+ 		}
+ 		return countL;
+ 	}
+ 	console.log(awet(l));
+
+
+
+
+ 		
+
+
+
+
+	
+	
+	
+
+	
+
+
+ 
+
+
+</script>
+</body>
+</html>

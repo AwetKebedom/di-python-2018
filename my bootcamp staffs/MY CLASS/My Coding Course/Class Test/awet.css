@@ -1,0 +1,65 @@
+div{
+	margin-left: 150px
+}
+
+p{
+	font-family: couriel;
+	justify-content: center;
+	color: white;
+}
+
+li{
+	color: white;
+
+}
+
+
+
+	
+
+body{
+	background-image: url("file:///C:/Users/HP/Desktop/Class%20Test/picture.jpeg");
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    background-blend-mode: lighten;
+    background-position: left;
+    background-size: 150px
+    font-color: white;
+    background-color: brown;
+}
+h2{
+	color: green;
+	background-color: white;
+	margin-left: -150px
+
+}
+h3{
+	color: green;
+	background-color: white;
+	margin-left: -150px
+}
+div
+h2{
+	margin-right: 120px
+
+
+
+}
+div
+h3{
+	margin-right: 120px
+}
+ul{
+	background-color: white;
+	margin-right:400px 
+}
+h4{
+	background-color: white;
+	margin-right:400px 
+}
+}
+
+
+
+
+	

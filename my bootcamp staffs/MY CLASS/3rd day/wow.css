@@ -1,0 +1,82 @@
+.pet1{
+	position: relative;
+	left: 70px;
+	top: 50px;
+	z-index: 1;
+	opacity:1;
+	transform: skewY(45deg);
+	transform: rotate(25deg);
+	animation: roll1 3s infinite;
+	transition-background: 2s;
+	border-radius: 200px
+
+}
+.pet2{
+	position: relative;
+	left:180px;
+	top:50px;
+	z-index: 0;
+	opacity:.1;
+	transform: skewY(45deg);
+	transform: rotateX(35deg);
+	animation: roll1 5s infinite;
+	transition-background: 2s;
+	border-radius: 200px;
+}
+
+.pet3{
+	position: relative;
+
+	left: 280px;
+	top:50px;
+	z-index: 1;
+	opacity:.3;
+	transform: skewY(45deg);
+	transform: rotate(25deg);
+	animation: roll3 3s infinite;
+	transition-background: 2s;
+	border-radius: 100px
+
+
+}
+
+@keyframes roll3 {
+	0% {
+		transform: rotateX(30deg);
+	}
+	50%{
+		transform: rotateX(180deg);
+	}
+}
+@keyframes roll1 {
+	0%{
+		transform: rotateY(-30deg);
+
+	}
+	50%{
+		transform: rotateY(-180deg);
+	}
+@keyframes roll2 {
+
+	    
+	
+	
+	
+
+	
+
+.catagory{
+	
+	left: 50px; 
+	top: 45px; 
+	background-color: blue;
+	left: 350px;
+	top: 250px;
+	color: white;
+	font-weight: bold;
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+}
